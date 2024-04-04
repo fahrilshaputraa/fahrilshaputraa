@@ -1,27 +1,29 @@
-### Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+### Hello there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-Hello! 🌟 I'm [Fahril Shaputra](https://fahril.site), a project designer 🎨 from Indonesia. I find joy in creating captivating and beautiful designs, including brand identity 🏷️ and responsive user experiences. With a solid educational background 📚 and strong work ethics 💼, I always strive to provide creative solutions that meet client needs with meticulous attention to detail. If you're interested in collaborating or have any questions, feel free to reach out to me. Thank you for visiting! 🚀
+I'm [Fahril Shaputra](https://fahril.site), a project designer from Indonesia. I find joy in creating captivating and beautiful designs, including brand identity and responsive user experiences. With a solid educational background and strong work ethics, I always strive to provide creative solutions that meet client needs with meticulous attention to detail. If you're interested in collaborating or have any questions, feel free to reach out to me. Thank you for visiting! 🚀
 
-**Talking about Personal Stuffs:**
+---
+
+### Talking about Personal Stuffs:
 
 - 👨‍💻 I'm also a frontend developer;
 - 🌱 Currently, I'm learning backend development with Golang and Django;
 - 💬 Feel free to ask me anything, I'm happy to help;
-- 📫 You can reach me via Instagram @fahrilshaputraa.
+- 📫 You can reach me via Instagram [@fahrilshaputraa](https://www.instagram.com/fahrilshaputraa/).
 
-**Languages and Tools:**  
+---
 
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"> JavaScript</code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"> React.js</code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"> Express.js</code>
-<code><img height="20" src="https://github.com/edent/SuperTinyIcons/blob/d190e37443ed7a09f39017cbf06d1b6be82d06e1/images/reference/Go-Logo_Blue.svg"> Golang</code>
-<code><img height="20" src="https://github.com/edent/SuperTinyIcons/blob/d190e37443ed7a09f39017cbf06d1b6be82d06e1/images/reference/djangoproject.png"> Django</code>
-<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png"> Photoshop</code>
-<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png"> Adobe Illustrator</code>
-<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/120px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"> Lightroom</code>
-<code><img height="20" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"> MySQL</code>
-<code><img height="20" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"> Git</code>
+### Languages and Tools:  
 
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"> JavaScript</code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"> React.js</code>
+<code><img height="30" src="https://github.com/edent/SuperTinyIcons/blob/d190e37443ed7a09f39017cbf06d1b6be82d06e1/images/reference/Go-Logo_Blue.svg"> Golang</code>
+<code><img height="30" src="https://github.com/edent/SuperTinyIcons/blob/d190e37443ed7a09f39017cbf06d1b6be82d06e1/images/reference/djangoproject.png"> Django</code>
+<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png"> Photoshop</code>
+<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1200px-Adobe_Illustrator_CC_icon.svg.png"> Adobe Illustrator</code>
+<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/120px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"> Lightroom</code>
+<code><img height="30" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"> MySQL</code>
+<code><img height="30" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"> Git</code>
 
 📊 **This Week I Spent My Time On:**
 <!--START_SECTION:waka-->
