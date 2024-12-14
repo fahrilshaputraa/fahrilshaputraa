@@ -47,13 +47,13 @@ export default function Post() {
 
                 {/* Menampilkan data artikel */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {posts.map((post, index) => {
+                    {posts.map((post: any, index: number) => {
                         // Calculate reading time based on word count
                         const wordCount = post.content.replace(/<[^>]*>/g, '').split(/\s+/).length;
                         const readingTime = Math.ceil(wordCount / 200); // Assuming 200 words per minute
 
                         return (
-                            <div key={post.id} className="group hover:shadow-lg transition duration-300 rounded-xl overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100 + 200}>
+                            <div key={post.id || `post-${index}`} className="group hover:shadow-lg transition duration-300 rounded-xl overflow-hidden" data-aos="fade-up" data-aos-delay={index * 100 + 200}>
                                 <a href={post.link} target="_blank" className="block">
                                     <img 
                                         src={post.content.match(/src="([^"]+)"/)?.[1] || '/default-image.jpg'} 

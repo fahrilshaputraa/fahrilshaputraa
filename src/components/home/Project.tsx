@@ -6,16 +6,24 @@ export default function Project() {
 
     useEffect(() => {
         const fetchProjects = async () => {
-        try {
-            const response = await fetch("https://strapi.dev-sti-group.biz.id/projects?_start=0&_limit=3");
-            const data = await response.json();
-            setProjects(data);
-        } catch (error) {
-            console.error("Error fetching projects:", error);
-        }
+            try {
+                const response = await fetch("https://strapi.dev-sti-group.biz.id/projects?_start=0&_limit=3");
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                setProjects(data);
+            } catch (error) {
+                if (!abortController.signal.aborted) {
+                    console.error("Error fetching projects:", error);
+                }
+            }
         };
 
+        const abortController = new AbortController();
         fetchProjects();
+        
+        return () => abortController.abort();
     }, []);
 
     return (

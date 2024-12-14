@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section className="pt-32 pb-20 bg-white">
             <div className="max-w-6xl mx-auto px-4 text-center">
-                <div className="float-animation">
+                <div className="float-animation mb-4">
                     <span className="text-5xl">👋</span>
                 </div>
                 <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" data-aos="fade-up" data-aos-delay="100">

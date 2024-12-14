@@ -1,4 +1,11 @@
 export default function Services() {
+    const handleWhatsAppClick = (service: string) => {
+        const message = encodeURIComponent(
+            `Halo, saya tertarik dengan layanan ${service} yang ditawarkan. Boleh tanya-tanya lebih detail?`
+        );
+        window.open(`https://wa.me/6282350171342?text=${message}`, '_blank');
+    };
+
     return (
         <section id="services" className="py-20 bg-gray-50">
             <div className="max-w-6xl mx-auto px-4">
@@ -25,7 +32,14 @@ export default function Services() {
                             <li>✅ 1x Revisi desain</li>
                             <li>✅ Penggunaan animasi (efek halus)</li>
                         </ul>
-                        <button className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" data-aos="fade-up" data-aos-delay="300"><i className="fa-brands fa-whatsapp"></i> Tanya Sekarang</button>
+                        <button 
+                            onClick={() => handleWhatsAppClick('HTML, CSS & JavaScript')}
+                            className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" 
+                            data-aos="fade-up" 
+                            data-aos-delay="300"
+                        >
+                            <i className="fa-brands fa-whatsapp"></i> Tanya Sekarang
+                        </button>
                         <p className="text-gray-500 text-sm mt-4 italic" data-aos="fade-up" data-aos-delay="400"><span className="font-bold">Note:</span> Layanan ini dikerjakan oleh tim ahli yang berpengalaman. Kami memastikan kualitas terbaik dan hasil yang memuaskan untuk bisnis Anda.</p>
                     </div>
                     {/* Paket 2 */}
@@ -45,7 +59,14 @@ export default function Services() {
                             <li>✅ 1x Revisi desain</li>
                             <li>✅ 2 minggu maintenance dan support</li>
                         </ul>
-                        <button className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" data-aos="fade-up" data-aos-delay="400"><i className="fa-brands fa-whatsapp"></i> Tanya Sekarang</button>
+                        <button 
+                            onClick={() => handleWhatsAppClick('Custom Website')}
+                            className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" 
+                            data-aos="fade-up" 
+                            data-aos-delay="400"
+                        >
+                            <i className="fa-brands fa-whatsapp"></i> Tanya Sekarang
+                        </button>
                         <p className="text-gray-500 text-sm mt-4 italic" data-aos="fade-up" data-aos-delay="500"><span className="font-bold">Note:</span> Layanan ini dikerjakan oleh tim ahli yang berpengalaman. Kami memastikan kualitas terbaik dan hasil yang memuaskan untuk bisnis Anda.</p>
                     </div>
                     
@@ -66,7 +87,14 @@ export default function Services() {
                             <li>✅ Joki Website Tugas Akhir, dll</li>
                             <li>✅ Dan Lain-Lain</li>
                         </ul>
-                        <button className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" data-aos="fade-up" data-aos-delay="500"><i className="fa-brands fa-whatsapp"></i> Tanya Sekarang</button>
+                        <button 
+                            onClick={() => handleWhatsAppClick('Layanan Lainnya')}
+                            className="w-full bg-blue-600 text-white py-2 rounded-full hover:bg-blue-700" 
+                            data-aos="fade-up" 
+                            data-aos-delay="500"
+                        >
+                            <i className="fa-brands fa-whatsapp"></i> Tanya Sekarang
+                        </button>
                         <p className="text-gray-500 text-sm mt-4 italic" data-aos="fade-up" data-aos-delay="600"><span className="font-bold">Note:</span> Layanan ini dikerjakan oleh tim ahli yang berpengalaman. Kami memastikan kualitas terbaik dan hasil yang memuaskan untuk bisnis Anda.</p>
                     </div>
                 </div>
