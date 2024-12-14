@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "../Card";
+import { Link } from "react-router-dom";
 
 export default function Project() {
     const [projects, setProjects] = useState([]);
@@ -36,12 +37,12 @@ export default function Project() {
                             Beberapa project yang telah saya kerjakan
                         </p>
                     </div>
-                    <a href="/project" 
+                    <Link to="/project"
                     className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition group gap-2"
                     data-aos="fade-up" data-aos-delay="200">
                         <span className="hidden md:block">Lihat Semua Project</span>
                         <i className="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
