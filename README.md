@@ -1,13 +1,31 @@
-# Hi, I'm Fahril 👋
+<div align="center">
 
-Software developer from Bandung. I build web apps with Python and TypeScript, and Windows tools with Rust.
+<img src="assets/banner.svg" alt="Fahril Shaputra, software developer from Bandung" width="100%">
 
-## Projects
+<br>
 
-- [**HolmBar**](https://github.com/fahrilshaputraa/holm): macOS-style menu bar, notch and Dock for Windows
-- [**PortaTap**](https://github.com/fahrilshaputraa/portatab): QR ordering and operations for F&B businesses
-- [**ColorMind**](https://github.com/fahrilshaputraa/ColorMind): design-system and color palette generator
+I build web apps with Python and TypeScript, and Windows tools with Rust.
 
-## Contact
+<a href="https://fahrilshaputra.work">Website</a> &nbsp;·&nbsp; <a href="https://x.com/FahrilShaputra">X</a>
 
-[fahrilshaputra.work](https://fahrilshaputra.work) · [@FahrilShaputra](https://x.com/FahrilShaputra)
+<br>
+<br>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b><a href="https://github.com/fahrilshaputraa/holm">HolmBar</a></b><br>
+      macOS-style menu bar, notch and Dock for Windows
+    </td>
+    <td width="33%" valign="top">
+      <b><a href="https://github.com/fahrilshaputraa/portatab">PortaTap</a></b><br>
+      QR ordering and operations for F&amp;B businesses
+    </td>
+    <td width="33%" valign="top">
+      <b><a href="https://github.com/fahrilshaputraa/ColorMind">ColorMind</a></b><br>
+      Design-system and color palette generator
+    </td>
+  </tr>
+</table>
+
+</div>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Fahril Shaputra, software developer from Bandung">
+  <title>Fahril Shaputra, software developer from Bandung</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6CB8FF"/>
+      <stop offset="1" stop-color="#3540E6"/>
+    </linearGradient>
+    <linearGradient id="notch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202028"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="300" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <path fill="#fff" fill-opacity=".10" d="M0 210C200 150 420 190 640 215S1000 220 1200 160V300H0Z"/>
+    <path fill="#1A1F9C" fill-opacity=".16" d="M0 262C220 226 440 262 680 250S1010 232 1200 246V300H0Z"/>
+    <path fill="url(#notch)" d="M456 0H744Q712 0 712 34V44Q712 80 676 80H524Q488 80 488 44V34Q488 0 456 0Z"/>
+    <ellipse cx="578" cy="40" rx="8" ry="13" fill="#E8F6FF"/>
+    <ellipse cx="622" cy="40" rx="8" ry="13" fill="#E8F6FF"/>
+    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" text-anchor="middle" fill="#fff">
+      <text x="600" y="168" font-size="60" font-weight="700">Fahril Shaputra</text>
+      <text x="600" y="212" font-size="26" fill-opacity=".92">Software developer · Bandung, Indonesia</text>
+      <text x="600" y="252" font-size="18" fill-opacity=".75" letter-spacing="3">CODE · COFFEE · CONQUER</text>
+    </g>
+  </g>
+</svg>
